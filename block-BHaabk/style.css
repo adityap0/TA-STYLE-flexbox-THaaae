@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.main_section1{
+    height: 500px;
+    width: auto;
+    border: 1px solid black;
+    display :flex;
+}
+.art1{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.art_gallery{
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.main_section2{
+    height: 300px;
+    width: auto;
+    border: 1px solid black;
+    display :flex;
+    
+}
